@@ -18,11 +18,18 @@ public class Rec {
       sumDigits(345) = 12.
       Precondition: n >= 0. */
     public static int sumDigits(int n) {
+<<<<<<< HEAD
 
 
 
 	// fill me in
 
+=======
+	
+	if (n == 0) return 0;
+	return n%10 +sumDigits(n/10);
+	
+>>>>>>> e36a10ecc3a980b0c6b53198c1e23b6c418ffa2e
     }
 
     /** = a copy of s with to_remove_char removed.
